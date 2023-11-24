@@ -43,8 +43,8 @@ body {
 
 .pos2 {
     z-index: 1;
-    position: absolute;
-    top: calc(50%);
+   
+    top: calc(60%);
     left: 10%;
     width: 80%; /* Reduzco el ancho para que no ocupe toda la pantalla */
     display: flex;
@@ -92,3 +92,29 @@ body {
             font-size: 23px;
             right: 100%;
           }
+          ion-buttons {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            --color: #FBF1CE;
+          }
+          
+          .imageButtonBack {
+            margin: 0; /* Elimina el margen predeterminado de los botones */
+          }
+          .imageButtonBack {
+            background-color: rgba(12, 35, 51, 0.377);
+            color: #FBF1CE;
+            padding: 10px 20px;
+            border: 2px solid #ffffff;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+          }
+          
+          .imageButtonBack:hover {
+            background-color: #2980b9;
+            border-color: #ffffff;
+          }
+          
+       
