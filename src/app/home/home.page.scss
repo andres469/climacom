@@ -1,0 +1,61 @@
+body{
+  overflow-y: scroll;
+}
+.group{
+width: 360px;
+height: 238px;
+flex-shrink: 0;
+}
+.group2{
+  width: 193px;
+height: 215px;
+flex-shrink: 0;
+}
+.Horarios{
+  width: 90%;
+  height: 52px;
+  flex-shrink: 0;
+  color: #FBF1CE;
+  font-family: Zen Kaku Gothic Antique;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: right;
+}
+.port{
+  width: 375px;
+height: 44px;
+flex-shrink: 0;
+}
+/* styles.css */
+.horizontal-recuadro {
+  display: flex;
+  align-items: center;
+  width: 100%;
+color: #F0E9A6;
+
+  border-radius: 5px;
+}
+
+.horizontal-recuadro p, .numero, .slider {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.numero {
+  font-size: 18px;
+  margin-left: 10px; 
+  margin-bottom: 10px;
+}
+
+.slider {
+  width: auto; 
+}
+.bot{
+  background-color: transparent;
+  font-size: 23px;
+  right: 100%;
+}
+

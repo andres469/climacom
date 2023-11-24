@@ -1,0 +1,94 @@
+.ini{
+    width: 375px;
+height: 44px;
+flex-shrink: 0;
+}
+
+
+.svg-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .svg-container svg {
+    margin: 0 auto;
+  }
+
+  .pos2 {
+    z-index: 1;
+    position: absolute;
+    top: calc(45%); /* Mueve el cuadro hacia abajo un valor igual a la altura de .ini (44px) más un 50% del alto de la ventana */
+    left: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.horizontal-recuadro {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0; /* Agrega espacio entre cada cuadro horizontal */
+}
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000; /* Establece el fondo negro */
+    color: #fff; /* Establece el color de texto a blanco */
+    font-family: Arial, sans-serif; /* Cambia la fuente según sea necesario */
+}
+
+.pos2 {
+    z-index: 1;
+    position: absolute;
+    top: calc(50%);
+    left: 10%;
+    width: 80%; /* Reduzco el ancho para que no ocupe toda la pantalla */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontal-recuadro {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    background-color: #333; /* Color de fondo oscuro */
+}
+
+.horizontal-recuadro p {
+    margin-right: 10px;
+}
+
+.numero {
+    margin-right: 10px;
+}
+
+.slider {
+    width: 50%; /* Ajusta el ancho del slider según sea necesario */
+    margin-left: auto;
+    margin-right: auto;
+}
+ .boton {
+            background-color: #151b155c; /* Color de fondo del botón */
+            color: #fff; /* Color de texto del botón */
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: auto; /* Coloca el botón al final del slide */
+            margin-right: 10px;
+        }
+
+        .bot{
+            background-color: transparent;
+            font-size: 23px;
+            right: 100%;
+          }

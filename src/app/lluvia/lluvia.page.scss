@@ -1,0 +1,67 @@
+.ini{
+    width: 375px;
+height: 44px;
+flex-shrink: 0;
+}
+.pos{
+    z-index: -1;
+    position: absolute;
+    
+}
+.pos2 {
+    z-index: 1;
+    position: absolute;
+    top: calc(30%); /* Mueve el cuadro hacia abajo un valor igual a la altura de .ini (44px) más un 50% del alto de la ventana */
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontal-recuadro {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0; /* Agrega espacio entre cada cuadro horizontal */
+}
+
+.horizontal-recuadro p,
+.numero,
+.slider {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.numero {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.slider {
+    width: auto;
+}
+.but{
+    left: 100%;
+}
+.bot{
+    background-color: transparent;
+    font-size: 23px;
+    right: 100%;
+  }
+  ion-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    --color: #FBF1CE;
+  }
+  
+  .imageButtonBack {
+    margin: 0; /* Elimina el margen predeterminado de los botones */
+  }
+  
